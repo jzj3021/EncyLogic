@@ -1,0 +1,24 @@
+# Workspace (data, models, results) — never commit large artifacts
+workspace/
+data/
+results/
+models/
+*.pth
+*.aig
+*.blif
+*.lib
+*.jsonl
+*.json
+!encylogic/**/*.json
+
+# Logs / temp
+*.log
+temp_*/
+abc.history
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
